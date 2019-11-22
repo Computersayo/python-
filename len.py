@@ -1,7 +1,7 @@
-name=input("Enter the name")
-if len(name)<3:
-    print("name must be more than three charactes")
-elif len (name)>25:
-    print("name must not exceed 25 characters")
-else:
-    print("word is the best match")
+Pass= input("enter your password")
+if len(Pass)>8:{
+    print("strong password")
+}
+else:{
+    print("your password is not strong")
+}
